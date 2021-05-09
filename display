@@ -1,0 +1,71 @@
+FIREFOX(1)                                     General Commands Manual                                     FIREFOX(1)
+
+NNAAMMEE
+       firefox - a free and open source web browser from Mozilla
+
+SSYYNNOOPPSSIISS
+       ffiirreeffooxx [_O_P_T_I_O_N_S] [_u_r_l]
+
+DDEESSCCRRIIPPTTIIOONN
+       See http://support.mozilla.com/ for help using the browser.  This manpage only describes how to run it.
+
+OOPPTTIIOONNSS
+       --hh,, ----hheellpp
+              Prints the command line options.
+
+       --gg,, ----ddeebbuugg
+              Starts ffiirreeffooxx in a debugger.
+
+       --dd,, ----ddeebbuuggggeerr
+              Specify the debugger in which to start ffiirreeffooxx. The default is gdb. Used in conjunction with --gg.
+
+       --aa,, ----ddeebbuuggggeerr--aarrggss
+              Specify arguments to pass to the debugger. Used in conjunction with --gg.
+
+       --nnoo--rreemmoottee
+              Don't  connect to any other running instances of ffiirreeffooxx. Use this if you want to run ffiirreeffooxx in an en‐
+              tirely new process. By default, ffiirreeffooxx will delegate a command to an already running instance.
+
+       --PPrrooffiilleeMMaannaaggeerr
+              Start the profilemanager. Use this to choose the profile you would like to run ffiirreeffooxx with.  You  will
+              need to also use --nnoo--rreemmoottee if there is already a running ffiirreeffooxx instance.
+
+       --PP _p_r_o_f_i_l_e
+              Start ffiirreeffooxx with the profile named _p_r_o_f_i_l_e. Will start the profile manager if a valid profile name is
+              not specified. You will need to also use --nnoo--rreemmoottee if there is already a running ffiirreeffooxx instance.
+
+       --ssaaffee--mmooddee
+              Start ffiirreeffooxx in safe-mode. This disables all third-party extensions, and may be necessary if  you  are
+              having problems with an extension you installed.
+
+       --nneeww--ttaabb _u_r_l
+              Open _u_r_l in a new tab.
+
+       --nneeww--wwiinnddooww _u_r_l
+              Open _u_r_l in a new window.
+
+       --vv,, --vveerrssiioonn
+              Print the current version of ffiirreeffooxx.
+
+       --UUIILLooccaallee _l_o_c_a_l_e
+              Start ffiirreeffooxx with the specified locale _l_o_c_a_l_e. Use this to override your environment
+
+       --pprreeffeerreenncceess
+              Open the preferences dialog.
+
+       --pprriivvaattee
+              Start ffiirreeffooxx in private browsing mode
+
+       --pprriivvaattee--ttooggggllee
+              Toggle private browsing mode
+
+       --sseettDDeeffaauullttBBrroowwsseerr
+              Set ffiirreeffooxx as the default web browser
+
+       --sseeaarrcchh _t_e_r_m
+              Search for _t_e_r_m with your default search engine
+
+       --jjssccoonnssoollee
+              Open the Error console. If ffiirreeffooxx is not already running, this will open a new browser window too
+
+firefox                                               2011-02-09                                           FIREFOX(1)
